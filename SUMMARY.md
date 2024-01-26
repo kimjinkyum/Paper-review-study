@@ -1,7 +1,6 @@
 # Table of contents
 
 * [Paper-Review-Study](README.md)
-* [Page 1](<README (1).md>)
 
 ## NLP
 
