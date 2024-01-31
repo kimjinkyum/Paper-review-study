@@ -13,3 +13,7 @@
 ## CV
 
 * [Animate Anyone: Consistent and Controllable Image-to-Video Synthesis for Character Animation](cv/animate-anyone-consistent-and-controllable-image-to-video-synthesis-for-character-animation.md)
+
+## 🍕 Multimodal
+
+* [A Survey on Multimodal Large Language Models](multimodal/a-survey-on-multimodal-large-language-models.md)
