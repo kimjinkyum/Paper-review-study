@@ -16,7 +16,7 @@ GitHub: [https://github.com/haotian-liu/LLaVA?tab=readme-ov-file](https://github
 * 거대 Vision-Language 오픈소스 (챗봇) 모델
 * 논문 제목은 Visual Instruction Tuning
   * Instruction을 GPT-4로 만들었다
-* 버전 1, 1.5, 1.6 있음
+* 버전 base, 1.5, 1.6 있음
   * 최신 버전일수록 더 좋은 데이터, 최적화 개선
 *   상업적 이용 라이센스 확인 필요
 
@@ -33,7 +33,7 @@ GitHub: [https://github.com/haotian-liu/LLaVA?tab=readme-ov-file](https://github
 * text-only GPT-4로 vision-langauge instruction-following data 생성
   * Chat 가능
 * End-to-end로 학습된 거대 vision-language 모델
-  * Vison Encoder (OpenCLIP) + LLM (Vicuna)
+  * Vison Encoder (CLIP) + LLM (Vicuna)
   * base 모델, 모델 가장 간단한 구조 사용함
 * GPT-4로 생성한 데이터, 학습된 모델, 코드 공개
 
@@ -76,12 +76,12 @@ GitHub: [https://github.com/haotian-liu/LLaVA?tab=readme-ov-file](https://github
 
     <figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 * 두 단계로 학습
-  * Stage 1: Pre-training for Feature Alignment
+  * Stage 1️⃣: Pre-training for Feature Alignment
     * Vision Encoder의 projection layer 학습
     * image-text 데이터셋의 텍스트 사용
       * $$X_q$$ : 이미지를 간단히 설명하세요
       * $$X_a$$ : ground-truth text 데이터
-  * Stage 2: Fine-tuning End-to-End
+  * Stage 2️⃣ : Fine-tuning End-to-End
     *      Vision Encoder의 projection layer, LLM 학습
     * GPT-4로 생성한 instructional data 사용 => Multi-Modal Chatbot!!!!
 
@@ -123,12 +123,14 @@ GitHub: [https://github.com/haotian-liu/LLaVA?tab=readme-ov-file](https://github
 
     <figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 * (2) Data Mixture
-  * [LAION-GPT-V](https://huggingface.co/datasets/laion/gpt4v-dataset) and [ShareGPT-4V](https://sharegpt4v.github.io/) 사용
-  * 실제 유저의 [LLaVA demo](https://llava-vl.github.io/)15K 데이터
-  * 필터링 후, GPT-4V로 instructional data 생성
-  * TextCaps, TextVQA 동일한 이미지 사용, TextCaps 제거
-  * OCR 위해서 DocVQA, SynDog-EN 추가
-  * 차트, 다이어그램 위해서 ChartQA, DVQA, AI2D 추가
+  * 유저 데이터
+    * [LAION-GPT-V](https://huggingface.co/datasets/laion/gpt4v-dataset) and [ShareGPT-4V](https://sharegpt4v.github.io/) 사용
+    * 실제 유저의 [LLaVA demo](https://llava-vl.github.io/)15K 데이터
+    * 필터링 후, GPT-4V로 instructional data 생성
+  * Document/Chart 데이터
+    * TextCaps, TextVQA 동일한 이미지 사용, TextCaps 제거
+    * OCR 위해서 DocVQA, SynDog-EN 추가
+    * 차트, 다이어그램 위해서 ChartQA, DVQA, AI2D 추가
 *   (3) Scailing LLM Backbone
 
     * &#x20;[Mistral-7B](https://mistral.ai/news/announcing-mistral-7b/) and [Nous-Hermes-2-Yi-34](https://huggingface.co/NousResearch/Nous-Hermes-2-Yi-34B)테스트
