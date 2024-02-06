@@ -44,7 +44,7 @@ coverY: 0
 * LLM이 베이스 - 비전 모델 베이스인데 텍스트도 이해할 수 있습니다! 는 제외
 * Task Finetuning은 제외했음 (밑의 이미지)
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
 이 논문에서는 정말 큰 가지만을 설명하고 있고, 자세한 implementation detail에 대해서는 다루고 있지 않음(주로 어떤 모델을 쓰는지?) 각각의 논문에 대해 많이 설명하고 있지도 않음............
 
@@ -147,7 +147,7 @@ ChatGPT 쓰기 싫어요 -> ToolFormer 로 가세요
 
 약간 이런 애들 (사진은 HuggingGPT)
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 따라서 딱히 소개하지는 않겠음.
 

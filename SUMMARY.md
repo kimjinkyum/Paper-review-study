@@ -17,3 +17,4 @@
 ## 🍕 Multimodal
 
 * [A Survey on Multimodal Large Language Models](multimodal/a-survey-on-multimodal-large-language-models.md)
+* [LLaVA: Large Language and Vision Assistant](multimodal/llava-large-language-and-vision-assistant.md)
