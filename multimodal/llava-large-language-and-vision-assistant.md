@@ -8,7 +8,7 @@ GitHub: [https://github.com/haotian-liu/LLaVA?tab=readme-ov-file](https://github
 
 데모 : [https://llava.hliu.cc/](https://llava.hliu.cc/)
 
-:)
+발표자: 은0공듀
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>LLaVA 데모</p></figcaption></figure>
 
