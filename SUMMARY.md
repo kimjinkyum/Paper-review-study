@@ -5,6 +5,7 @@
 ## NLP
 
 * [Ties-Merging](nlp/ties-merging.md)
+* [BGE M3-Embedding: Multi-Lingual, Multi-Functionality, Multi-Granularity Text Embeddings Through Self](nlp/bge-m3-embedding-multi-lingual-multi-functionality-multi-granularity-text-embeddings-through-self.md)
 
 ## RL
 

@@ -147,7 +147,7 @@ ChatGPT 쓰기 싫어요 -> ToolFormer 로 가세요
 
 약간 이런 애들 (사진은 HuggingGPT)
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 따라서 딱히 소개하지는 않겠음.
 

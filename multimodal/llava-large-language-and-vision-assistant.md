@@ -10,7 +10,7 @@ GitHub: [https://github.com/haotian-liu/LLaVA?tab=readme-ov-file](https://github
 
 발표자: 은0공듀
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>LLaVA 데모</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption><p>LLaVA 데모</p></figcaption></figure>
 
 ## Intro
 
@@ -28,7 +28,7 @@ GitHub: [https://github.com/haotian-liu/LLaVA?tab=readme-ov-file](https://github
         <figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
     * LLaMA: 월간 사용자가 7억명 이상일 경우 라이센스를 요청?
 
-    <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## LLaVA: Visual Instruction Tuning
 
@@ -47,7 +47,7 @@ GitHub: [https://github.com/haotian-liu/LLaVA?tab=readme-ov-file](https://github
   *   3 가지 종류의 instruction (158k)\
       : conversation(58k), detailed description(23k), complex reasoning(77k)
 
-      <figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p>instructional vision-langauge 데이터 예시</p></figcaption></figure>
+      <figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>instructional vision-langauge 데이터 예시</p></figcaption></figure>
 
 
 
@@ -55,7 +55,7 @@ GitHub: [https://github.com/haotian-liu/LLaVA?tab=readme-ov-file](https://github
 
 #### 모델 구조
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 * $$X_v$$: 이미지, $$(X_q, X_a)$$: 텍스트 (instruction) question-answer
 * $$H_v = W \cdot Z_v, \;\;with\;\; Z_v = CLIP(X_v)$$
@@ -70,7 +70,7 @@ GitHub: [https://github.com/haotian-liu/LLaVA?tab=readme-ov-file](https://github
 
       <figure><img src="../.gitbook/assets/스크린샷 2024-02-07 오전 5.20.27.png" alt=""><figcaption></figcaption></figure>
 
-      <figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption><p>Multi-turn 데이터 예제</p></figcaption></figure>
+      <figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>Multi-turn 데이터 예제</p></figcaption></figure>
 
 #### 학습 방법
 
